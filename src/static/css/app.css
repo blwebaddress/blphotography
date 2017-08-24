@@ -1,0 +1,24 @@
+.appMainDiv {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /*display: flex;*/
+    align-items: center;
+}
+
+.headingContainer {
+    margin: 0;
+}
+
+.appH2 {
+    padding: 1ch;
+    font-family: Helvetica, Verdana, Arial, Helvetica, sans-serif; 
+    text-transform: uppercase;
+   
+}
+
+.test {
+    display: block;
+    white-space: nowrap;
+}
