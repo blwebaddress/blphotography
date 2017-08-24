@@ -12,15 +12,13 @@ class App extends Component {
             <div className="appMainDiv">
                 
                   <div className="pageContainer">
-                     
-                        <div className="appH2"> 
-                            
+                      
+                        <div className="appH2">
                             <BigText
                                 options={bigTextOptions}
                             > 
                                 Ben Litwin Photography  
                             </BigText>
-                        
                         </div>
                      
                   </div>

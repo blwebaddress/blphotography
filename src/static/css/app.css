@@ -1,7 +1,6 @@
 .appMainDiv {
     width: 100vw;
-    margin: 0;
-    padding: 0;
+    padding: 2ch;
     align-items: center;
     height: 100vh;
 }
@@ -9,11 +8,13 @@
 .pageContainer {
     height: 100%;
     width: 100%;
+    border: 1px black solid;
 }
 
 .appH2 {
     padding: 1ch;
     font-family: Helvetica, Verdana, Arial, Helvetica, sans-serif; 
+    font-weight: bold;
     text-transform: uppercase;
    
 }
