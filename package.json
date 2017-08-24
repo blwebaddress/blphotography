@@ -3,14 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "boundless-fitted-text": "^1.1.0",
+    "gh-pages": "^1.0.0",
     "react": "^15.6.1",
+    "react-bigtext": "^1.0.1",
     "react-dom": "^15.6.1",
+    "react-text-resize": "^1.0.0",
     "react-textfit": "^1.0.1"
   },
   "devDependencies": {
     "react-scripts": "1.0.11"
   },
+  "homepage": "http://benlitwinphotography.com/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
